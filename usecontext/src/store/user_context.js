@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const text = React.createContext({
+const Text = React.createContext({
 
     text1:"UserPage",
     text2:"User_Component1",
@@ -12,10 +12,10 @@ const text = React.createContext({
 
 export const textProvider = (props) => {
     return(
-        <text.Provider>
+        <Text.Provider>
             {props.children}
-        </text.Provider>
+        </Text.Provider>
     );
 }
 
- export default text;
+ export default Text;

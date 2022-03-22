@@ -1,27 +1,19 @@
 import React, { useContext } from 'react';
-import text from '../store/user_context';
+import Text from '../store/user_context';
 
 
-const userComponent1 = () => {
-    // const ctx = useContext(text);
+const UserComponent1 = () => {
+    const ctx = useContext(Text);
 
     return (
         <>
-        <text.Consumer>
-            
-            {(ctx) => {
-                return(
-                    <>
+                    
                     <h2>
                     I'm a {ctx.text2}
                     </h2>
-                    </>
-                );
-            }}
                 
-        </text.Consumer>
         </>
     );
 }
 
-export default userComponent1;
+export default UserComponent1;
