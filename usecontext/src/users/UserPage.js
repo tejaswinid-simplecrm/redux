@@ -15,7 +15,7 @@ const UserPage = () => {
 
                     <UserComponent1></UserComponent1>
                     
-                    <UserComponent1></UserComponent1>
+                    <UserComponent2></UserComponent2>
 
         </div>
     );
