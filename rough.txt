@@ -1,0 +1,2 @@
+Yes, if you put an <img> element between the <a> tags
+then your image will be clickable just like text.
